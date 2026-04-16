@@ -45,6 +45,8 @@ A tabular Q-Learning agent that learns to navigate a stochastic 3×4 Grid World,
 
 ## Running
 
+No third-party packages are required.
+
 ```bash
 python GridWorld_Starter.py
 ```

@@ -1,5 +1,4 @@
-"""
-GridWorld_Starter.py
+"""GridWorld_Starter.py
 CS 57200: Heuristic Problem Solving
 
 A skeleton implementation of Q-Learning in a stochastic Grid World.

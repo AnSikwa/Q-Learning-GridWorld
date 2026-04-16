@@ -10,7 +10,7 @@ After training for 5,000 episodes with epsilon = 0.1, the learned policy grid is
 | ↑  →  ↑  ↓ |
 ```
 
-Tracing the path from start (2,0) following the policy arrows: (2,0)→UP→(1,0)→UP→(0,0)→RIGHT→(0,1)→RIGHT→(0,2)→RIGHT→(0,3)=Goal. The agent successfully reaches the goal without entering the pit. Critically, the cells adjacent to the pit at (1,3) — namely (1,2) and (2,3) — choose actions that move away from the pit (UP at (1,2) and DOWN at (2,3)), which demonstrates that the agent has learned to avoid the dangerous region. The policy routes the agent along the top row, which is the safest path because it keeps maximum distance from the pit while heading directly toward the goal.
+Tracing the path from start (0,0) following the policy arrows: (0,0)→RIGHT→(0,1)→RIGHT→(0,2)→RIGHT→(0,3)=Goal. The agent successfully reaches the goal without entering the pit. Critically, the cells adjacent to the pit at (1,3) — namely (1,2) and (2,3) — choose actions that move away from the pit (UP at (1,2) and DOWN at (2,3)), which demonstrates that the agent has learned to avoid the dangerous region. The policy routes the agent along the top row, which is the safest path because it keeps maximum distance from the pit while heading directly toward the goal.
 
 ## Question 2 — Q-Values at State (0, 2) (15 pts)
 
